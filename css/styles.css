@@ -182,3 +182,49 @@ footer {
     margin-left: 2rem;
     font-size: 1.6rem;
 }
+
+@media screen and (max-width: 480px) {
+    nav {
+        text-transform: uppercase;
+        background-color: #1792a4;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top:0;
+        z-index: 1030;
+        font-size: 1.3rem;
+    }
+    .descripcion_gorka1 {
+        color: #e42d40;
+        font-size: 2.0rem;
+        font-style: oblique;
+    }
+
+    .descripcion_gorka2 {
+        margin-bottom: 0rem;
+        color: #1792a4;
+        font-size: 1.8rem;
+    }
+
+    .descripcion_gorka3 {
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-top: 0rem;
+        color: #e47c5d;
+        font-size: 1.8rem;
+    }
+
+    .image_social {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        max-width: 15%
+    }
+    .logos {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        vertical-align: middle;
+        max-width: 25%;
+    }
