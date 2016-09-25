@@ -211,6 +211,13 @@ footer {
         margin-left: 1rem;
         color: white;
     }
+
+    .img-circle {
+        border-radius: 50%;
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+
     .descripcion_gorka1 {
         color: #e42d40;
         font-size: 2.8rem;
@@ -275,6 +282,13 @@ footer {
         margin-left: 1rem;
         color: white;
     }
+    
+    .img-circle {
+        border-radius: 50%;
+        max-width: 12rem;
+        max-height: 12rem;
+    }
+
     .descripcion_gorka1 {
         color: #e42d40;
         font-size: 3rem;
