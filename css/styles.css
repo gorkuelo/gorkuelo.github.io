@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav {
+    text-transform: uppercase;
+    background-color: #1792a4;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    z-index: 1030;
+    font-size: 27px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    margin-right: 20px;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #44b4c4;
+    color: white;
+}
+
+nav .logo {
+    display:flex;
+    float:left;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1792a4;
+    color: white;
+}
+
+.section-index {
+    margin-top: 8rem;
+}
+
+.line {
+    border-style: solid;
+    border-width: 0.5px;
+    color: #c8e5e3;
+}
+
+.foto-gorka {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+.descripcion_gorka1 {
+    color: #e42d40;
+    font-size: 3.1rem;
+    font-style: oblique;
+}
+
+.descripcion_gorka2 {
+    margin-bottom: 0rem;
+    color: #1792a4;
+    font-size: 3rem;
+}
+
+.descripcion_gorka3 {
+    margin-top: 0rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-top: 0rem;
+    color: #e47c5d;
+    font-size: 3rem;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.image_social {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.image_social_link {
+  position: relative;
+  color: #c8e5e3;
+}
+.image_social_link:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 10px;
+  background-color: #c8e5e3;
+  content: "";
+  transition: width 0.2s;
+}
+
+.image_social_link:hover {
+  color: #c8e5e3;
+}
+
+.image_social_link:hover:after {
+  width: 100%;
+}
+
+.article-tech {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logos {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    vertical-align: middle;
+}
+
+.article-projects {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project {
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.key-project {
+    font-size: 1.6rem;
+    color:#e47c5d;
+}
+
+.value-project {
+    font-size: 1.6rem;
+    color:#1792a4;
+}
+
+.line-projects {
+    border-style: dashed;
+    border-width: 0.3px;
+    color: #f0ddaa;
+}
+
+.footer-text {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
