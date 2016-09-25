@@ -183,7 +183,71 @@ footer {
     font-size: 1.6rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
+    nav {
+        text-transform: uppercase;
+        background-color: #1792a4;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top:0;
+        z-index: 1030;
+        font-size: 1rem;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: left;
+        margin-right: 1rem;
+    }
+    nav .logo {
+        display:flex;
+        float:left;
+        text-align: center;
+        padding: 14px 0px;
+        text-decoration: none;
+        margin-left: 1rem;
+        color: white;
+    }
+    .descripcion_gorka1 {
+        color: #e42d40;
+        font-size: 2.8rem;
+        font-style: oblique;
+    }
+
+    .descripcion_gorka2 {
+        margin-bottom: 0rem;
+        color: #1792a4;
+        font-size: 1.8rem;
+    }
+
+    .descripcion_gorka3 {
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-top: 0rem;
+        color: #e47c5d;
+        font-size: 1.8rem;
+    }
+
+    .image_social {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        max-width: 15%
+    }
+    .logos {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        vertical-align: middle;
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px) {
     nav {
         text-transform: uppercase;
         background-color: #1792a4;
@@ -194,6 +258,61 @@ footer {
         z-index: 1030;
         font-size: 1.3rem;
     }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: left;
+        margin-right: 1rem;
+    }
+    nav .logo {
+        display:flex;
+        float:left;
+        text-align: center;
+        padding: 14px 0px;
+        text-decoration: none;
+        margin-left: 1rem;
+        color: white;
+    }
+    .descripcion_gorka1 {
+        color: #e42d40;
+        font-size: 3rem;
+        font-style: oblique;
+    }
+
+    .descripcion_gorka2 {
+        margin-bottom: 0rem;
+        color: #1792a4;
+        font-size: 1.8rem;
+    }
+
+    .descripcion_gorka3 {
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-top: 0rem;
+        color: #e47c5d;
+        font-size: 1.8rem;
+    }
+
+    .image_social {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        max-width: 15%
+    }
+    .logos {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        vertical-align: middle;
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+    
     .descripcion_gorka1 {
         color: #e42d40;
         font-size: 2.0rem;
@@ -228,3 +347,41 @@ footer {
         vertical-align: middle;
         max-width: 25%;
     }
+}
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+    
+    .descripcion_gorka1 {
+        color: #e42d40;
+        font-size: 2.5rem;
+        font-style: oblique;
+    }
+
+    .descripcion_gorka2 {
+        margin-bottom: 0rem;
+        color: #1792a4;
+        font-size: 1.8rem;
+    }
+
+    .descripcion_gorka3 {
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-top: 0rem;
+        color: #e47c5d;
+        font-size: 1.8rem;
+    }
+
+    .image_social {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        max-width: 15%
+    }
+    .logos {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        vertical-align: middle;
+        max-width: 25%;
+    }
+}
